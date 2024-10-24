@@ -48,6 +48,12 @@ a:hover {
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
+.logo-img {
+    height: 60px; /* Adjust this value to match your menu bar height */
+    width: auto;  /* Maintain aspect ratio */
+    object-fit: contain;
+    display: block;
+}
 .logo {
     font-size: 2rem;
   }
